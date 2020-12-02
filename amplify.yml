@@ -1,0 +1,13 @@
+version: 2
+frontend:
+  phases:
+    build:
+      commands: []
+  artifacts:
+    baseDirectory: /
+    files:
+      - 'index.html'
+      - 'assets/**'
+      - 'images/*'
+  cache:
+    paths: []
